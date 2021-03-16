@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.container{
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+    padding: 20px;
+    box-shadow: 2px 2px 2px lightsteelblue;
+}
+input[type=number]{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+.btn{
+    padding:5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    outline-width: 0;
+}
+.btn:active{
+    transform: scale(0.96);
+}
+.active{
+    background-color: pink;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}

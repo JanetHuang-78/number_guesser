@@ -1,0 +1,13 @@
+{
+  "name": "number_guesser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepages": "https://JanetHuang-78.github/number_guesser"
+}
