@@ -5,14 +5,18 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: lightgray;
+    background: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .container{
-    border: 1px solid lightseagreen;
-    border-radius: 5px;
-    background-color: lightsteelblue;
+    /* border: 1px solid lightseagreen;
+    border-radius: 5px; */
+    background-color: transparent;
     padding: 20px;
     box-shadow: 2px 2px 2px lightsteelblue;
+    color: white;
 }
 input[type=number]{
     border: 1px solid lightskyblue;
